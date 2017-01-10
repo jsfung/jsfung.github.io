@@ -59,6 +59,8 @@ a:hover {
 
 h1, h2, h3 {
   font-weight: 300;
+  color: #ED1C24;
+  padding-top: 1.5rem;
 }
 
 
@@ -358,7 +360,28 @@ h1, h2, h3 {
   margin: auto;
   margin-bottom: 1rem;
 }
-
+.entry-profile img {
+  display: block;
+  width: 5%;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  transition: opacity .2s linear;
+}
+.entry-image {
+  position: relative;
+  display: block;
+  border-radius: 3px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.entry-image img {
+  display: block;
+  width: 5%;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  transition: opacity .2s linear;
+}
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -375,14 +398,6 @@ h1, h2, h3 {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.entry-profile img {
-  display: block;
-  width: 5%;
-  border: 1px solid #fff;
-  border-radius: 3px;
-  transition: opacity .2s linear;
 }
 
 .entry-content {
@@ -452,6 +467,7 @@ h1, h2, h3 {
 .entry-date {
   font-weight: 300;
   color: #8a8a8a;
+  padding-top: 1rem;
 }
 
 .related {
@@ -657,6 +673,12 @@ h1, h2, h3 {
   .entry-profile {
     float: left;
     width: 20%;
+    margin: 0;
+    margin-right: 1rem;
+  }
+  .entry-image {
+    float: center;
+    width: 90%;
     margin: 0;
     margin-right: 1rem;
   }
