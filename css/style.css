@@ -50,7 +50,7 @@ html {
 body {
   font-size: 1rem;
   line-height: 1.4;
-  background-color: #fafafa;
+  background-color: white;
 }
 
 a:hover {
@@ -584,7 +584,7 @@ h1, h2, h3 {
     width: 640px;
     height: 360px;
     padding: 0px;
-    margin: 0px;
+    margin: auto;
   }
   .video-wrapper iframe {
     width: 640px;
@@ -672,8 +672,6 @@ h1, h2, h3 {
     margin-right: 1rem;
   }
   .entry-image {
-    float: center;
-    width: 90%;
-    margin: 0;
-    margin-right: 1rem;
+    margin: auto;
+	max-width: 700px;
   }
