@@ -360,6 +360,7 @@ h1, h2, h3 {
   margin: auto;
   margin-bottom: 1rem;
 }
+
 .entry-profile img {
   display: block;
   width: 5%;
@@ -367,21 +368,15 @@ h1, h2, h3 {
   border-radius: 3px;
   transition: opacity .2s linear;
 }
+
 .entry-image {
   position: relative;
   display: block;
-  border-radius: 3px;
   width: 100%;
   margin: auto;
   margin-bottom: 1rem;
 }
-.entry-image img {
-  display: block;
-  width: 5%;
-  border: 1px solid #fff;
-  border-radius: 3px;
-  transition: opacity .2s linear;
-}
+
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
