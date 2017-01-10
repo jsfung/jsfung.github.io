@@ -419,6 +419,7 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-size: .85rem;
   font-weight: 300;
+  color: black;
 }
 
 .entry-title a {
