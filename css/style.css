@@ -396,8 +396,8 @@ h1, h2, h3 {
 }
 
 .entry-content {
-  margin-top: .5rem;
-  margin-bottom: .25rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   font-size: .90rem;
@@ -414,8 +414,8 @@ h1, h2, h3 {
 }
 
 .entry-title {
-  margin-top: .5rem;
-  margin-bottom: .25rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
   font-family: 'Roboto', sans-serif;
   font-size: .85rem;
   font-weight: 300;
