@@ -138,6 +138,7 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #f00;
+  display: inline-block;
 }
 
 .nav-link:link {
