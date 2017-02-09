@@ -9,6 +9,7 @@
     <meta name="author" content="Jessica Fung, James Yang">
     <title>Jessica Fung | UX Designer</title>
     <link href="css/style.css" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -69,29 +70,34 @@
         <div class="entry-content">
           <h3>CHALLENGE</h3>
           <p class="entry-content">Our client, <a href="http://www.sapientnitro.com/" target="_blank">SapientNitro</a>, challenged our team to envision a new food delivery, shopping, preparation, or consumption service that leverages data from separate service ecosystems into our own service or platform. We created Digestible.</p>
-          <p class="entry-content">Health complications can often be remedied by a change in diet, and patients only see their doctor yearly for check-ups. After a trip to the office, there is nothing holding patients accountable to change their eating habits. Our goal with Digestible was to keep track of a patient's grocery and restaurants receipts and sync them with existing nutrition and fitness applications along with updating the patient's health record that their doctor could see. <b>We aimed to create a service that keeps your doctor in the loop on your health all year and keeps patients accountable for their diets.</b></p>
           <div class="video-wrapper">
             <iframe src="https://player.vimeo.com/video/165127929" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
+		  <p class="entry-content">Health complications can often be remedied by a change in diet, and patients only see their doctor yearly for check-ups. After a trip to the office, there is nothing holding patients accountable to change their eating habits. Our goal with Digestible was to keep track of a patient's grocery and restaurants receipts and sync them with existing nutrition and fitness applications along with updating the patient's health record that their doctor could see. <b>We aimed to create a service that keeps your doctor in the loop on your health all year and keeps patients accountable for their diets.</b></p>
           <h3>CONCEPT EVALUATION</h3>
           <p class="entry-content">Creating a concept map outlining the different topics behind food alowed us to discover the space of food education. <b>We wanted to provide a solution to childhood obesity</b></p>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/conceptmap.JPG" /></div>
-          <p class="entry-content">We had the opportunity to conduct user interviews with a parent, a teacher, a nutritionist, and a school food supplier. We conducted a field study at the Central Kitchen, where all of the food for Pittsburgh's elementary schools is cooked and packaged. From these primary resources, we gathered three key insights:
+		  <div class="entry-content"><a href="img/digestible/conceptmap.png" data-lightbox="concept-evaluation" data-title="Different topics like convenience, social pressures, affordability, and quality emerged from a concept map revolving around food."><img class="entry-image"src="img/digestible/conceptmap.png" alt="Click to expand concept map."></a></div>
+		  <p class="entry-content">We had the opportunity to conduct user interviews with a parent, a teacher, a nutritionist, and a school food supplier. We conducted a field study at the Central Kitchen, where all of the food for Pittsburgh's elementary schools is cooked and packaged. From these primary resources, we gathered three key insights.</p>
+		  <p class="entry-content" style="margin-top:-1rem;">
+			<ul>
+			  <li class="double"><a href="img/digestible/centralkitchen.PNG" data-lightbox="concept-evaluation" data-title="The Central Kitchen in Pittsburgh is the facility that prepares, packages, and sends out food to all of the elementary schools in the city."><img class="entry-image"src="img/digestible/centralkitchen.PNG" alt="Click to expand value flow model."></a></li>
+			  <li class="double">
             <ol>
+			  <h3 style="margin-top:-1.5rem;">KEY INSIGHTS</h3>
               <li>Access, convenience, and lack of money prevent people from eating healthy.<br/><br/></li>
               <li>"Gatekeepers", like parents and schools, have more influence over what children eat than children do.<br/><br/></li>
               <li>The school food program does not have a lot of money flowing within the ecosystem. If we were to disrupt this, the economic inflow would have to be from elsewhere.</li>
-            </ol>
-          </p>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/centralkitchen.PNG" /></div>
+            </ol></li>
+			</ul>
+		  </p>
           <h3>IDEATION</h3>
           <p class="entry-content">Using an affinity diagram we brainstormed services that our initial health-conscious parent and busy child personas would benefit from.</p>
           <!--<div class="entry-content"><img class="entry-image" src="img/digestible/affinitydiagram.PNG" /></div>-->
           <p class="entry-content">We narrowed our ideas to three that we storyboarded and speed dated. During speed dating, we shared a survey on /r/fitness, /r/nutrition, and /r/loseit asking Redditors to provide feedback on each storyboard and say if it was a solution they needed or would use. We also spoke with individuals outside of two Pittsburgh grocery stores to get their thoughts.</p>
           <p class="entry-content">In the second iteration of storyboards, we decided to focus on the themes of access and knowledge. At this point, we realized that the goal of preventing childhood obesity was out of scope for the project, and decided to temporarily explore and broaden our scope to a more &quot;help people eat better&quot; before focusing on a new, smaller idea.</p>
-         <div class="entry-content"><img class="entry-image" src="img/digestible/storyboard6.PNG"></div>
-         <div class="entry-content"><img class="entry-image" src="img/digestible/storyboard8.PNG"></div>
-         <div class="entry-content"><img class="entry-image" src="img/digestible/storyboard9.PNG"></div>
+         <div class="entry-content"><a href="img/digestible/storyboard6.PNG" data-lightbox="storyboard" data-title="People loved the idea and said they would use the service everyday. However, there were concerns with security and having a business suddenly message their phone"><img class="entry-image" src="img/digestible/storyboard6.PNG"></a></div>
+         <div class="entry-content"><a href="img/digestible/storyboard7.PNG" data-lightbox="storyboard" data-title="People commented that this was a nice idea, but they felt that the biggest problem to eating healthy was their limited budget. Also half the people did not own a PC or smartphone."><img class="entry-image" src="img/digestible/storyboard8.PNG"></a></div>
+         <div class="entry-content"><a href="img/digestible/storyboard8.PNG" data-lightbox="storyboard"  data-title="People liked the idea and commented that it advised people to make judgement calls before a purchase."><img class="entry-image" src="img/digestible/storyboard9.PNG"></a></div>
           <p class="entry-content">We walked away with two final findings:
 			<ol>
 				<li>Most people we wanted to help did not own smartphones, laptops, or have internet access, so we needed to rethink our target audience because technology is not a solution for everyone.<br/><br/></li>
@@ -108,21 +114,41 @@
           <p class="entry-content">Our team realized there was a problem space that existed where people were in poor health and had the capacity to improve their health with a small change in diet.</p>
           <p class="entry-content">This is when doctors came into the picture and patients emerged from our general target because a macro perspective of food purchases could give a more holistic picture of a person's health. <b>We wanted to provide doctors with year-round health data.</b></p>
           <p class="entry-content">At the same time, we thought about how we could make sense of this data for the consumer who could learn to make changes to their diet. <b>We wanted to help consumers understand their shopping/food purchase behavior and help suggest incremental improvements</b></p>
-          <p class="entry-content">From this, we formed three new personas based on three key stakeholders: doctor, grocery store/restaurant, and patient/consumer.</p>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/persona.PNG" /></div>
+          <p class="entry-content">From this, we formed three new personas based on three key stakeholders: doctor, grocery store/restaurant, and patient/consumer.</p>	
+		  <p class="entry-content" style="margin-top:-1rem;">
+			<ul>
+			  <li class="triple"><a href="img/digestible/persona1.PNG" data-lightbox="persona"><img class="entry-image"src="img/digestible/persona1.PNG" alt="Click to expand system map."></a></li>
+			  <li class="triple"><a href="img/digestible/persona2.PNG" data-lightbox="persona"><img class="entry-image"src="img/digestible/persona2.PNG" alt="Click to expand value flow model."></a></li>
+			  <li class="triple"><a href="img/digestible/persona3.PNG" data-lightbox="persona"><img class="entry-image"src="img/digestible/persona3.PNG" alt="Click to expand stakeholder model."></a></li>
+			</ul>
+		  </p>
           <h3>SERVICE MODELS</h3>
-          <p class="entry-content">Thinking about the needs and interactions of Dr. Herman, Alan, and Brian in mind, our team modeled the new service.</p>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/system.PNG" /><br/><br/></div>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/value.PNG" /><br/><br/></div>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/stakeholder.PNG" /></div>
+          <p class="entry-content">Thinking about the needs and interactions of Dr. Herman, Alan, and Brian in mind, our team modeled the new service in a <a href="img/digestible/system.PNG" data-lightbox="service-model-text">system map</a>, <a href="img/digestible/value.PNG" data-lightbox="service-model-text">value flow model</a>, and <a href="img/digestible/stakeholder.PNG" data-lightbox="service-model-text">stakeholder model</a>.</p>
+		  <p class="entry-content" style="margin-top:-1rem;">
+			<ul>
+			  <li class="triple"><a href="img/digestible/system.PNG" data-lightbox="service-model"><img class="entry-image"src="img/digestible/system.PNG" alt="Click to expand system map."></a></li>
+			  <li class="triple"><a href="img/digestible/value.PNG" data-lightbox="service-model"><img class="entry-image"src="img/digestible/value.PNG" alt="Click to expand value flow model."></a></li>
+			  <li class="triple"><a href="img/digestible/stakeholder.PNG" data-lightbox="service-model"><img class="entry-image"src="img/digestible/stakeholder.PNG" alt="Click to expand stakeholder model."></a></li>
+			</ul>
+		  </p>
           <h3>DESIGN</h3>
           <p class="entry-content">We brainstormed potential user stories and decided to use the story of a high-risk individual with heart disease to demonstrate the value of Digestible. We focused on this single workflow during our design phase.</p>
-          <!--<div class="entry-content"><img class="entry-image" src="img/digestible/design.PNG" /></div>-->
           <p class="entry-content">From user testing the screens we sketched, we learned that the <b>strength of our app was in providing users with recommendations of healthy alternatives</b>, and not in displaying data. We recognized that behavior is hard to change--it's difficult to tell someone to give up chips and eat broccoli instead. Because of this, we demonstrated the substitution of frozen corn for canned corn, which is an easy change for a low-sodium diet.</p>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/ui1.jpg" /></div>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/ui2.jpg" /></div>
+		   <p class="entry-content" style="margin-top:-1rem;">
+			<ul>
+			  <li class="double"><a href="img/digestible/ui1.jpg" data-lightbox="ui"><img class="entry-image"src="img/digestible/ui1.jpg" alt="Click to expand receipt and recommendation views."></a></li>
+			  <li class="double"><a href="img/digestible/ui2.jpg" data-lightbox="ui"><img class="entry-image"src="img/digestible/ui2.jpg" alt="Click to expand progress tracking."></a></li>
+			</ul>
+		  </p>
           <p class="entry-content">After testing and finalizing our wireframe, we began focusing on our branding and conducted a visual language and logo exploration. We decided on the final color scheme and logo with the help of Reddit's votes on what they felt fitted our service.</p>
-          <div class="entry-content"><img class="entry-image" src="img/digestible/brand.PNG" /></div>
+		  <p class="entry-content" style="margin-top:-1rem;">
+			<ul>
+			  <li class="double"><a href="img/digestible/branding.PNG" data-lightbox="branding"><img class="entry-image"src="img/digestible/branding.PNG" alt="Click to expand color and type exploration."></a></li>
+			  <li class="double"><a href="img/digestible/logo.jpg" data-lightbox="branding"><img class="entry-image"src="img/digestible/logo.jpg" alt="Click to expand logo brainstorm."></a></li>
+			</ul>
+		  </p>
+		  
+		  
           <h3>FINAL PROTOTYPE</h3>
 		  <div class="entry-content"><img class="entry-image" src="img/digestible/digestible.gif" /></div>
 		  <p class="entry-content">Check out the final prototype on <a class="entry-title-link" href="https://invis.io/D5A324XUC#/214983978_Splash" target="_blank">Invision</a></p>
@@ -181,5 +207,6 @@
         </div>
       </div>
     </div>
+	<script src="js/lightbox-plus-jquery.js"></script>
   </body>
 </html>
