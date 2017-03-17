@@ -248,7 +248,7 @@ h1, h2, h3 {
  */
 
 .listing {
-  max-width: 800px;
+  max-width: 1000px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -359,6 +359,13 @@ h1, h2, h3 {
   border: 1px solid #fff;
   border-radius: 3px;
   transition: opacity .2s linear;
+}
+
+.entry-thumb-static {
+  display: block;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 3px;
 }
 
 .entry-thumb:hover img {
@@ -704,7 +711,7 @@ h1, h2, h3 {
   }
   .entry-image {
     margin: auto;
-	max-width: 700px;
+	max-width: 800px;
   }
 .entry-content li.double {
   width: 49%;
