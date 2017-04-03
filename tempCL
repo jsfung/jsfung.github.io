@@ -1,0 +1,65 @@
+:: PROJECT DEETS ::
+My Role
+UX Designer + Prototyper
+Project Type
+Redesign, Chatbot | 5 days
+
+:: CHALLENGE ::
+I was challenged to create a better shopping experience for students who want to buy furniture on Craigslist.
+
+:: PROBLEM ::
+User interviews revealed three key pain points.
+
+Anonymity
+<question mark graphic>
+Anonymity makes it scary for students to meet with a stranger. Students also feel the item the item received is low quality.
+
+Communication
+<speech bubble graphic>
+Unclear communication with the seller over emails and phone is slow. There is a lot of information to confirm regarding meeting logistics and learning more about the item.
+
+Search
+<magnifying glass graphic>
+Searching on the UI is difficult when there are so many posts to look through.
+
+
+:: SOLUTION ::
+Introducing Reputation, the Craigslist Chatbot, and Context-Based Filtering
+After filtering the search to find exactly what the student is seeking, the friendly in-app chatbot acts as the middleman between the buyer and seller. He helps to coordinate meeting logistics and communication while removing the anxiety and stress of speaking with a stranger. After the exchange, the buyer and seller are able to rate the interaction, providing each other reputation data for future buyers and sellers to view.
+
+
+:: PERSONA ::
+Sally Madison
+-Sophomore at NYU who is furnishing her first apartment
+-Looking for a small, cheap couch that is nearby
+-Her friend, John, has a car and has offered to help her move the couch and keep her company when she picks up the couch
+
+:: WALKTHROUGH ::
+
+:: PROCESS ::
+
+--Market Research
+Anonymity Is a Double-Edged Sword
+Craigslist has a strong brand as an anonymous marketplace for locak sales.
+<trust spectrum graphic>
+Compaed to competitors in online shopping and local interactions, Craigslist falls behind in the trust category. User research revealed that anonymity gives users comfort in having the ability to hide themselves, but it cretes fear since they don't know anything about other users.
+
+--Goals
+Redesigning Craigslist For Students
+Create trust in the Craigslist community by implementing a reputation system while keeping elements of anonymity.
+Ease communication between a buyer and seller in arranging meeting time and place, payment, and transport of item.
+Introduce context-based filtering on search results to help users find exactly what they want.
+
+<Affinity Diagram graphic>
+
+With the ideas I brainstormed, I asked students for feedback in order to determine the best solution for a redesigned Craigslist.
+
+--Design
+Craigslist emerged in 1995, with the look and feel designed to mimic newspaper classifieds, but the reality is not many read newspapers today. I retained Craiglist's renown minimalism, but decided to focus my redesign on creating a mobile app since students are always on-the-go with their phones in hand. 
+<paper sketches>
+<wireframes>
+
+--Future Work
+if I had more time to work on this redesign concept, I would like to test my design with users in order to see how to better improve.
+
+Because the challenge asked speciailly about the student buyer experience, I focused on that aspect. However, Craiglist is a two-way marketplace, so I would like to flesh out the seller screens, as well as show how the desktop application would appear.
