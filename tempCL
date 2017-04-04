@@ -4,8 +4,10 @@ UX Designer + Prototyper
 Project Type
 Redesign, Chatbot | 5 days
 
+
 :: CHALLENGE ::
 I was challenged to create a better shopping experience for students who want to buy furniture on Craigslist.
+
 
 :: PROBLEM ::
 User interviews revealed three key pain points.
@@ -34,6 +36,7 @@ Sally Madison
 -Looking for a small, cheap couch that is nearby
 -Her friend, John, has a car and has offered to help her move the couch and keep her company when she picks up the couch
 
+
 :: WALKTHROUGH ::
 
 --Onboarding
@@ -44,8 +47,34 @@ This create an account for her and provides security. A fake phone number is dif
 The initial screen keeps the simple, minimal nature of Craigslist.
 
 --Payment
+Sally connects her credit card to the app.
+This saves her the pain of finding an ATM, withdrawing, and carrying cash as she used to have to.
 
+--Search + Context-Based Filtering
+Sally searches for a couch. The initial results show prices that are far out of her budget.
+Context-based filtering allows Sally to find a couch fitting her requirements and price point. Here, something like seating capacity matters, but it is not a filter she would expect to see  she were searching for a treadmill.
 
+--Browse Items + Seller Reputation
+Sally views different couches and reads the prices, description, and seller rating.
+She decides to purchase a couch from jason, who has a high rating and a couch that fits her requirements.
+
+--Chatbot Eases Communication
+The chatbot ensures that Sally doesn't have to deal with the axiety of speaking with a stranger. Craigslist acts as a medium between the buyer and seller.
+
+Sally easily arranges meeting time, payment method, and transportation method with Jason.
+
+--Push Notifications Provide Reminders
+Notifications remind both Sally and Jason of the meeting, and the real-life interaction begins. Sally inspects the couch and decides to take it.
+
+Sally receives a notification asking if the transaction is complete. She selects YES, which sends  notification to Jason asking for a cnfirmation of payment.
+
+When Jason selects YES, his listing is removed from the Craigslist search results in order to prevent future buyers from contacting about a couch that has already been sold.
+
+--Reputation In the Community
+Sally (and Jason!) rate the experience with each other in order to help build reputation in the Craigslist community.
+
+--Purchase History
+The transaction now appears in Sally's Past transactions.
 
 
 :: PROCESS ::
