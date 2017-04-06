@@ -1,0 +1,44 @@
+::Project Details::
+My Role
+Design Lead
+
+Project Type
+Redesign, Web App
+
+Timeline
+January 2017 - February 2017
+2 months
+
+Teammate
+Mary O'Brien
+
+::Blurb::
+As a side project for my team, I was tasked with a redesign proposal to improve the look and feel and simplify the navigation of my team's web app supporting Asset Management, which is accessed by 2,500+ global business users.
+
+There is a limit to what information I can discuss and show of the designs, but I can talk about what I learned about designing with limited access to users.
+
+::Challenge::
+How Can I Design For Users That I Cannot Meet and Interview?
+Due to issues relating to privacy of data, development teams are unable to commmunicate with employees of the firm that deal with PI data.
+
+::Solution::
+Adapt the Process to Use Whatever Is Available
+I recognized that I had access to two groups of people: Members of my team who are experts on the application and random employees on the floor who have never touched the application before. I asked these two groups to roleplay and participate in cognitive walkthroughs during testing in order to get a better picture of my users.
+
+::Design and Research Process::
+Personas
+From the initial requirements, I recognized that there were three groups of users. I asked my manager to walk through a task on the current application, posing as each user. As he performed the tasks, I asked why he selected the items he did and which items on the screen were important or missing. This gave me more visibility into the motives of each user.
+<personas>
+
+Personalized Screens for Each User
+Having the same screen for each user doesn't make sense becase they want to do and see different things. From listing out use cases for each user, we saw what components of the appplication mattered most.
+
+Ideatiing, Prototyping, and User Testing
+We had a whiteboarding session where we created different ways of representing the needed information on a screen via paper prototypes before jumping into 3 iterations of mi-fi prototyping in PowerPoint, and 3 iterations of hi-fi prototyping in Figma. Between iterations, we tested the designs with 6 roleplaying users.
+
+::Before + After::
+<before>
+<after>
+
+::Where Is This Now?::
+The redesign proposal has been handed off to our team's business analyst to gain feedback from users.
