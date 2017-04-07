@@ -8,7 +8,7 @@
 	<meta name="keywords" content="jessica, fung, user experience, design, ux, ui, service design, interaction design, portfolio">
 	<meta name="author" content="Jessica Fung, James Yang">
 	<title>Jessica Fung | UX Designer</title>
-	<link href="css/new-style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<link href="css/lightbox.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css" />
 	<style>
@@ -116,7 +116,7 @@
 </head>
 <body>
 	<div class="masthead">
-		<h1 class="masthead-title"><a href="index.html">jessica fung</a></h1>
+		<h1 class="masthead-title"><a href="index.html" class="animsition-link">jessica fung</a></h1>
 		<p class="masthead-lead"> I solve problems by designing seamless user experiences.</p>
 		<hr class="masthead-hr"/>
 		<ul class="masthead-nav">
@@ -152,7 +152,7 @@
 		</ul>
 		<hr class="masthead-hr"/>
 	</div>
-	<div class="page-wrapper">
+	<div class="page-wrapper animsition">
 		<div class="container-fluid">
 			<div class="header-image locked-aspect-ratio-35">
 				<div class="row">
@@ -176,6 +176,7 @@
 						Sachin Nayak, Brian Nelson</p>
 				</div>
 				<div class="col-sm-8">
+					<!--add mobile only ruler-->
 					<p class="page-section norm-text">SapientNitro challenged our team to envision a new food delivery, shopping, preparation, or consumption service that leverages data from separate service ecosystems into our own service or platform. <br/><br/>We created Digestible.<br/><br/>This project was advised by Jodi Forlizzi and Leanne Libert for Service Design.</p>
 					
 				</div>
