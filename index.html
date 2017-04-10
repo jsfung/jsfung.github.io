@@ -9,125 +9,119 @@
     <meta name="author" content="Jessica Fung, James Yang">
     <title>Jessica Fung | UX Designer</title>
     <link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
     <!-- Favicons -->
-    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+	<!-- animsition -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+	<script src="https://use.fontawesome.com/e1064942f9.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $(".animsition").animsition({
+			inClass: 'fade-in-down-sm',
+			outClass: 'fade-out-down-sm',
+			inDuration: 800,
+			outDuration: 800,
+			linkElement: '.animsition-link',
+			// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+			loading: false,
+			loadingParentElement: 'body', //animsition wrapper element
+			loadingClass: 'animsition-loading',
+			loadingInner: '', // e.g '<img src="loading.svg" />'
+			timeout: false,
+			timeoutCountdown: 5000,
+			onLoadEvent: true,
+			browser: [ 'animation-duration', '-webkit-animation-duration'],
+			// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+			// The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+			overlay : false,
+			overlayClass : 'animsition-overlay-slide',
+			overlayParentElement : 'body',
+			transition: function(url){ window.location.href = url; }
+		  });
+		});
+    </script>
   </head>
-  <body>
-    <div class="masthead">
-      <h1 class="masthead-title">
-      <a href="http://www.jessicafung.co/">jessica fung</a>
-      </h1>
-      <p class="masthead-lead"> I solve problems by designing seamless user experiences.</p>
-      <hr class="masthead-hr" />
-      <ul class="masthead-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="img/JessicaFungResume.pdf" target="_blank">Resume</a>
-        </li>
-        <li class="nav-item mobile-only-inline">
-          <span class="nav-link-now">Portfolio</span>
-        </li>
-      </ul>
-      <ul class="masthead-nav desktop-only">
-        <li class="nav-item">
-          <div class="nav-link-now" href="http://www.jessicafung.co/">Portfolio</div>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="digestible.html">Digestible</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="reps.html">Reps</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="geekline.html">Geekline</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="mail.html">Mail As We Age</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="traffic.html">Traffic Dashboard</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="poster.html">Lecture Poster</a>
-        </li>
-		<hr class="masthead-hr" />
-      </ul>
-    </div>
-    <div class="listing">
-      <div class="entry">
-        <a class="entry-thumb" href="digestible.html" title="Digestible. Motivating high-risk patients to make changes to their diet while keep doctors in the loop year round.">
-          <img src="img/digestible/entry.png">
-          <span class="icon icon-forward entry-icon"></span>
-        </a>
-<!--        <div class="entry-content">
-          <h2 class="entry-title">
-			<a href="digestible.html"><b>Digestible</b> ++ Working with <a class="entry-title-link" href="http://www.sapientnitro.com/" target="_blank">Sapient Nitro</a> to motivate patients to make changes to their diet while keep doctors in the loop year round.</a>
-          </h2>
-        </div>-->
-      </div>
-      <div class="entry">
-        <a class="entry-thumb" href="reps.html" title="Reps. Providing weight-lifters with hands-off workout tracking at the gym.">
-          <img src="img/reps/entry.png">
-          <span class="icon icon-forward entry-icon"></span>
-        </a>
-<!--        <div class="entry-content">
-          <h2 class="entry-title">
-          <a href="reps.html"><b>Reps</b> ++ Providing weight-lifters with hands-off workout tracking at the gym.</a>
-          </h2>
-        </div>-->
-      </div>
-      <div class="entry">
-        <a class="entry-thumb" href="geekline.html" title="Geekline. Teaching the elderly to use technology">
-          <img src="img/geekline/entry.png">
-          <span class="icon icon-forward entry-icon"></span>
-        </a>
-<!--        <div class="entry-content">
-          <h2 class="entry-title">
-          <a href="geekline.html"><b>Geekline</b> ++ Teaching the elderly to use technology.</a>
-          </h2>
-        </div>-->
-      </div>
-      <div class="entry">
-        <a class="entry-thumb" href="mail.html" title="Mail As We Age. A model of how the quality and quantity of mail we receive changes as we grow up.">
-          <img src="img/mail/entry.png">
-          <span class="icon icon-forward entry-icon"></span>
-        </a>
-<!--        <div class="entry-content">
-          <h2 class="entry-title">
-          <a href="mail.html"><b>Mail As We Age</b> ++ A model of how the quality and quantity of mail we receive changes as we grow up.</a>
-          </h2>
-        </div>-->
-      </div>
-      <div class="entry">
-        <a class="entry-thumb" href="traffic.html" title="Traffic Dashboard. Creating the UI of a dashboard displaying critical road conditions for the Pennsylvania Department of Transportation.">
-          <img src="img/traffic/entry.png">
-          <span class="icon icon-forward entry-icon"></span>
-        </a>
-<!--        <div class="entry-content">
-          <h2 class="entry-title">
-          <a href="traffic.html"><b>Traffic Dashboard</b> ++ Creating the UI of a dashboard displaying critical road conditions for <a class="entry-title-link" href="http://www.penndot.gov/" target="_blank">PennDot</a>.
-          </h2>
-        </div>-->
-      </div>
-      <div class="entry">
-        <a class="entry-thumb" href="poster.html" title="Lecture Poster. Exploring typography by designing a lecture poster for Don Norman.">
-          <img src="img/poster/entry.png">
-          <span class="icon icon-forward entry-icon"></span>
-        </a>
-<!--        <div class="entry-content">
-          <h2 class="entry-title">
-			<a href="poster.html"><b>Lecture Poster</b> ++ Exploring typography by designing a lecture poster for <a class="entry-title-link" href="http://www.jnd.org/" target="_blank">Don Norman</a>.
-          </h2>
-        </div>-->
-      </div>
-    </div>
-  </body>
+	<body>
+		<div class="masthead">
+			<h1 class="masthead-title">
+				<a href="index.html" class="animsition-link">jessica fung</a>
+			</h1>
+			<p class="masthead-lead"> I solve problems by designing seamless user experiences.</p>
+			<hr class="masthead-hr">
+			<ul class="masthead-nav">
+				<li class="nav-item">
+					<a class="nav-link animsition-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link animsition-link" href="img/JessicaFungResume.pdf" target="_blank">Resume</a>
+				</li>
+				<li class="nav-item mobile-only-inline">
+					<div class="nav-link-now">Portfolio</div>
+				</li>
+			</ul>
+			<ul class="masthead-nav desktop-only">
+				<li class="nav-item">
+					<div class="nav-link-now">Portfolio</div>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="digestible.html">Digestible</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="craigslist.html">Craigslist Chatbot</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="reps.html">Reps</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="geekline.html">Geekline</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="mail.html">Mail As We Age</a>
+				</li>
+			</ul>
+			<hr class="masthead-hr" />
+		</div>
+		<div class="page-wrapper animsition">
+			<div class="container-fluid">
+				<div class="listing">
+					<div class="entry">
+						<a class="entry-thumb" href="digestible.html" title="Digestible. Motivating high-risk patients to make changes to their diet while keep doctors in the loop year round.">
+							<img src="img/digestible/entry.png"/>
+						</a>
+					</div>
+					<div class="entry">
+						<a class="entry-thumb" href="craigslist.html" title="Craigslist Chatbot. Enhancing the furniture-buying experience.">
+							<img src="img/craigslist/entry.png"/>
+						</a>
+					</div>
+					<div class="entry">
+						<a class="entry-thumb" href="reps.html" title="Reps. Providing weight-lifters with hands-off workout tracking at the gym.">
+							<img src="img/reps/entry.png"/>
+						</a>
+					</div>
+					<div class="entry">
+						<a class="entry-thumb" href="geekline.html" title="Geekline. Teaching the elderly to use technology">
+							<img src="img/geekline/entry.png"/>
+						</a>
+					</div>
+					<div class="entry">
+						<a class="entry-thumb" href="mail.html" title="Mail As We Age. A model of how the quality and quantity of mail we receive changes as we grow up.">
+							<img src="img/mail/entry.png"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

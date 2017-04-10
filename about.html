@@ -9,70 +9,105 @@
     <meta name="author" content="Jessica Fung, James Yang">
     <title>Jessica Fung | UX Designer</title>
     <link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
     <!-- Favicons -->
-    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+	<!-- animsition -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+	<script src="https://use.fontawesome.com/e1064942f9.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $(".animsition").animsition({
+			inClass: 'fade-in-down-sm',
+			outClass: 'fade-out-down-sm',
+			inDuration: 800,
+			outDuration: 800,
+			linkElement: '.animsition-link',
+			// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+			loading: false,
+			loadingParentElement: 'body', //animsition wrapper element
+			loadingClass: 'animsition-loading',
+			loadingInner: '', // e.g '<img src="loading.svg" />'
+			timeout: false,
+			timeoutCountdown: 5000,
+			onLoadEvent: true,
+			browser: [ 'animation-duration', '-webkit-animation-duration'],
+			// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+			// The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+			overlay : false,
+			overlayClass : 'animsition-overlay-slide',
+			overlayParentElement : 'body',
+			transition: function(url){ window.location.href = url; }
+		  });
+		});
+    </script>
   </head>
   <body>
     <div class="masthead">
-      <h1 class="masthead-title">
-      <a href="http://www.jessicafung.co/">jessica fung</a>
-      </h1>
-      <p class="masthead-lead"> I solve problems by designing seamless user experiences.</p>
-      <hr class="masthead-hr">
-      <ul class="masthead-nav">
-        <li class="nav-item">
-          <div class="nav-link-now">About</div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="img/JessicaFungResume.pdf" target="_blank">Resume</a>
-        </li>
-        <li class="nav-item mobile-only-inline">
-          <a class="nav-link" href="http://www.jessicafung.co/">Portfolio</a>
-        </li>
-      </ul>
-      <ul class="masthead-nav desktop-only">
-        <li class="nav-item">
-          <a class="nav-link" href="http://www.jessicafung.co/">Portfolio</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="digestible.html">Digestible</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="reps.html">Reps</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="geekline.html">Geekline</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="mail.html">Mail As We Age</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="traffic.html">Traffic Dashboard</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="poster.html">Lecture Poster</a>
-        </li>
-		<hr class="masthead-hr" />
-      </ul>
-    </div>
-    <div class="listing">
-      <div class="entry">
-        <img class="entry-profile" src="img/profile.jpg">
-        <div class="entry-content">
-          <p class="entry-content">I am currently an Application Developer focusing in UX design at <a class="entry-title-link" href="https://www.jpmorgan.com/country/US/en/jpmorgan" target="_blank">JPMorgan Chase & Co</a> where I am creating solutions within Asset Management.</p>
-          <p class="entry-content">Through my <a class="entry-title-link" href="img/JessicaFungResume.pdf" target="_blank">coursework and work experience</a>, I have observed how technology streamlines communications and processes to add value internally within the business and outwards to the customer. My goal is to solve problems by designing innovative technology products and services that positively impact and improve people's lives.</p>
-		  <br/><br/>
-          <p class="entry-content">Chat with me: <a class="entry-title-link" href="mailto:jessica.fung.inbox@gmail.com">Email</a> | <a class="entry-title-link" href="http://www.linkedin.com/in/jessicasfung">LinkedIn</a><br /><br /></p>
-          <hr/>
-          <p class="entry-content">On the side, I enjoy <a class="nav-link" href="http://www.quantumlion.com" target="_blank">testing new recipes</a>, <a class="nav-link" href="http://www.isiptea.blogspot.com" target="_blank">sipping tea</a>, playing ukulele, and listening to audiobooks on runs. :)</p>
-        </div>
-      </div>
-    </div>
+			<h1 class="masthead-title">
+				<a href="index.html" class="animsition-link">jessica fung</a>
+			</h1>
+			<p class="masthead-lead"> I solve problems by designing seamless user experiences.</p>
+			<hr class="masthead-hr">
+			<ul class="masthead-nav">
+				<li class="nav-item">
+					<div class="nav-link-now" href="about.html">About</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link animsition-link" href="img/JessicaFungResume.pdf" target="_blank">Resume</a>
+				</li>
+				<li class="nav-item mobile-only-inline">
+					<a class="nav-link animsition-link" href="index.html">Portfolio</a>
+				</li>
+			</ul>
+			<ul class="masthead-nav desktop-only">
+				<li class="nav-item">
+					<a class="nav-link animsition-link" href="index.html">Portfolio</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="digestible.html">Digestible</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="craigslist.html">Craigslist Chatbot</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="reps.html">Reps</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="geekline.html">Geekline</a>
+				</li>
+				<li class="nav-item-project">
+					<a class="nav-link-project animsition-link" href="mail.html">Mail As We Age</a>
+				</li>
+			</ul>
+			<hr class="masthead-hr" />
+		</div>
+	<div class="page-wrapper animsition">
+		<div class="container-fluid">
+			<div class="listing">
+			  <div class="entry">
+				<img class="entry-profile" src="img/profile.jpg">
+				<div class="entry-content">
+				  <p class="entry-content">I am currently an Application Developer focusing in UX design at <a class="entry-title-link" href="https://www.jpmorgan.com/country/US/en/jpmorgan" target="_blank">JPMorgan Chase & Co</a> where I am creating solutions within Asset Management.</p>
+				  <p class="entry-content">My goal is to not only create aesthetic interfaces, but to solve problems by designing innovative technology products and services that positively impact and improve people's lives.</p>
+				  <br/>
+				  <p class="entry-content">Chat with me: <a class="entry-title-link" href="mailto:jessica.fung.inbox@gmail.com">Email</a> | <a class="entry-title-link" href="http://www.linkedin.com/in/jessicasfung">LinkedIn</a><br /><br /></p>
+				  <hr/>
+				  <p class="entry-content">On the side, I enjoy <a class="nav-link" href="http://www.quantumlion.com" target="_blank">testing new recipes</a>, <a class="nav-link" href="http://www.isiptea.blogspot.com" target="_blank">sipping tea</a>, playing ukulele, and listening to audiobooks on runs. :)</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</div>
   </body>
 </html>

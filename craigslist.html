@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="jessica, fung, user experience, design, ux, ui, service design, interaction design, portfolio">
+	<meta name="author" content="Jessica Fung, James Yang">
+	<title>Jessica Fung | UX Designer</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css" />
+	<style>
+	.header-image	{background-image: url("img/craigslist/entry.png");}
+	h2 				{color: #551A8B}
+	.bg-accent		{background-color: #551A8B}
+	.fa				{color: #551A8B}
+	.nav-link-project-now	{color: #551A8B}
+	
+	.btn-sample { 
+	  color: #551A8B; 
+	  background-color: #FFFFFF; 
+	  border-color: #551A8B; 
+	} 
+	 
+	.btn-sample:hover, 
+	.btn-sample:focus, 
+	.btn-sample:active, 
+	.btn-sample.active, 
+	.open .dropdown-toggle.btn-sample { 
+	  color: #551A8B; 
+	  background-color: #FFFFFF; 
+	  border-color: #551A8B; 
+	} 
+	 
+	.btn-sample:active, 
+	.btn-sample.active, 
+	.open .dropdown-toggle.btn-sample { 
+	  background-image: none; 
+	} 
+	 
+	.btn-sample.disabled, 
+	.btn-sample[disabled], 
+	fieldset[disabled] .btn-sample, 
+	.btn-sample.disabled:hover, 
+	.btn-sample[disabled]:hover, 
+	fieldset[disabled] .btn-sample:hover, 
+	.btn-sample.disabled:focus, 
+	.btn-sample[disabled]:focus, 
+	fieldset[disabled] .btn-sample:focus, 
+	.btn-sample.disabled:active, 
+	.btn-sample[disabled]:active, 
+	fieldset[disabled] .btn-sample:active, 
+	.btn-sample.disabled.active, 
+	.btn-sample[disabled].active, 
+	fieldset[disabled] .btn-sample.active { 
+	  background-color: #FFFFFF; 
+	  border-color: #551A8B; 
+	} 
+	 
+	.btn-sample .badge { 
+	  color: #FFFFFF; 
+	  background-color: #551A8B; 
+	}
+	</style>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<!-- animsition -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+	<script src="https://use.fontawesome.com/e1064942f9.js"></script>
+	<script>
+	$(document).ready(function() {
+		  $(".animsition").animsition({
+			inClass: 'fade-in-down-sm',
+			outClass: 'fade-out-down-sm',
+			inDuration: 800,
+			outDuration: 800,
+			linkElement: '.animsition-link',
+			// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+			loading: false,
+			loadingParentElement: 'body', //animsition wrapper element
+			loadingClass: 'animsition-loading',
+			loadingInner: '', // e.g '<img src="loading.svg" />'
+			timeout: false,
+			timeoutCountdown: 5000,
+			onLoadEvent: true,
+			browser: [ 'animation-duration', '-webkit-animation-duration'],
+			// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+			// The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+			overlay : false,
+			overlayClass : 'animsition-overlay-slide',
+			overlayParentElement : 'body',
+			transition: function(url){ window.location.href = url; }
+		  });
+		
+		$("#toggle").click(function(){        
+    		if($(this).text().trim() == 'VIEW MORE' ){
+        		$(this).text('VIEW LESS');
+    		} else {
+         		$(this).text('VIEW MORE');
+    		}
+		});
+
+	});
+	</script>
+</head>
+<body>
+	<div class="masthead">
+		<h1 class="masthead-title">
+			<a href="index.html" class="animsition-link">jessica fung</a>
+		</h1>
+		<p class="masthead-lead"> I solve problems by designing seamless user experiences.</p>
+		<hr class="masthead-hr">
+		<ul class="masthead-nav">
+			<li class="nav-item">
+				<a class="nav-link animsition-link" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link animsition-link" href="img/JessicaFungResume.pdf" target="_blank">Resume</a>
+			</li>
+			<li class="nav-item mobile-only-inline">
+				<a class="nav-link animsition-link" href="index.html">Portfolio</a>
+			</li>
+		</ul>
+		<ul class="masthead-nav desktop-only">
+			<li class="nav-item">
+				<a class="nav-link animsition-link" href="index.html">Portfolio</a>
+			</li>
+			<li class="nav-item-project">
+				<a class="nav-link-project animsition-link" href="digestible.html">Digestible</a>
+			</li>
+			<li class="nav-item-project">
+				<div class="nav-link-project-now">Craigslist Chatbot</div>
+			</li>
+			<li class="nav-item-project">
+				<a class="nav-link-project animsition-link" href="reps.html">Reps</a>
+			</li>
+			<li class="nav-item-project">
+				<a class="nav-link-project animsition-link" href="geekline.html">Geekline</a>
+			</li>
+			<li class="nav-item-project">
+				<a class="nav-link-project animsition-link" href="mail.html">Mail As We Age</a>
+			</li>
+		</ul>
+		<hr class="masthead-hr" />
+	</div>
+	<div class="page-wrapper animsition">
+		<div class="container-fluid">
+			<div class="header-image locked-aspect-ratio-35">
+				<div class="row">
+					<div class="col-sm-8"></div>
+					<div class="col-sm-4"></div>
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-sm-5">
+				<p class="small-text">
+					<strong>My Role</strong><br/>
+					UX Designer + Prototyper
+					<br/><br/>
+					<strong>Project Type</strong><br/>
+					Redesign, Chatbot<br/>
+					4 days | February 2017
+			</div>
+			<div class="col-sm-7">
+				<hr class="mobile-only page-section-top"/>
+				<p class="page-section-none norm-text">I created a better shopping experience for students who want to buy furniture on Craigslist.
+				<br/><br/>
+				I had been reading about chatbots in 2017 UX trends and wanted to experiment with designing one.</p>
+				
+			</div>
+		</div>
+		<div class="row page-section-bottom bg-filled">
+			<div class="col-sm-12">
+				<h2 class="page-section-top center">Challenge<br/><br/></h2>
+				<h1 class="center">Students Feel Unsafe Using Craigslist</h1>
+				<p class="page-section-top center norm-text">User interviews revealed three major pain points.</p>
+			</div>
+		</div>
+		<div class="row page-section-bottom bg-filled">
+			<div class="col-sm-4">
+				<p class="page-section-bottom center"><i class="fa fa-question fa-4x"></i></p>
+				<h2 class="page-section-bottom center">Anonymity</h2>
+				<p class="page-section-bottom center norm-text">Anonymity makes it scary for students to meet with a stranger. Students also feel the item received is low quality.</p>
+			</div>
+			<div class="col-sm-4">
+				<p class="page-section-bottom center"><i class="fa fa-comments-o fa-4x"></i></p>
+				<h2 class="page-section-bottom center">Communication</h2>
+				<p class="page-section-bottom center norm-text">Unclear communication with the seller over emails and phone is slow. There is a lot of information to confirm.</p>
+			</div>
+			<div class="col-sm-4">
+				<p class="page-section-bottom center"><i class="fa fa-search fa-4x"></i></p>
+				<h2 class="page-section-bottom center">Search</h2>
+				<p class="page-section-bottom center norm-text">Reliably searching on the UI is difficult when there are so many posts to look through.</p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-accent">
+			<div class="col-sm-12">
+				<h1 class="page-section-top center" style="color:white;">Introducing: Reputation, the Craigslist Chatbot, and Context-Based Filtering</h1>
+				<br/><br/>
+				<p class="norm-text center" style="color:white;">Filtering the search helps the student narrow down to the item they want. The friendly in-app chatbot then helps to coordinate communication between buyer and seller while removing the anxiety and stress of speaking with a stranger. <br/><br/>After the exchange, the buyer and seller are able to rate the interaction, providing each other reputation data for future buyers and sellers to view.</p>
+			</div>
+		</div>
+		<br/>
+		<div class="row page-section-top bg-filled">
+			<div class="col-sm-12">
+				<h2 class="page-section-top center">Personas<br/><br/></h2>
+				<h1 class="center">Meet Sally Madison</h1>
+				<p class="page-section-bottom norm-text center"><img class="page-image" src="img/craigslist/sally.png" style="display:block;max-width:250px; max-height:25opx;"></p>
+				<h2 class="page-section-bottom center">Sally was created from user interview findings.</h2>
+				<p class="page-section-bottom norm-text center">
+				- Sophomore at NYU who is furnishing her first apartment<br/>
+				- Looking for a small, cheap couch that is nearby</br>
+				- Her friend, John, has a car and has offered to help her move the couch and keep her company
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="center">How It Works</h1>
+				<p class="norm-text page-section center">
+					Digestible records food-purchasing behavior via grocery and resturant receipts updates to their electronic health record found at the doctor's office. According to the diet guidelines set by the doctor, the app provides small recommendations for food substitutions.
+				</p>
+				<p class="page-section-top center">
+					<img class="page-image" src="img/craigslist/how-it-works.png">
+				</p>
+			</div>
+		</div>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>Onboarding</h1>
+				<p class="page-section norm-text-screen">Sally logs into Craigslist with her phone number and a code sent to her phone.
+				<br/><br/>
+				This create an account for her and provides security. A fake phone number is difficult to create.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-onboarding.png"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>Landing Page</h1>
+				<p class="page-section norm-text-screen">The initial screen keeps the simple, minimal nature of Craigslist.<br/><br/>This redesign was built as a mobile application since students are always on the go.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-landing.png"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>Payment</h1>
+				<p class="page-section norm-text-screen">Patients and doctors can interact year-round instead of only at yearly appointments.<br/><br/>This provides motivation to patients and helps improve the relationship between the users.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-payment.png"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>Context-Based Filtering</h1>
+				<p class="page-section norm-text-screen">Sally searches for a couch. The initial results show prices that are far out of her budget.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-search.png"></p>
+			</div>
+		</div>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<p class="page-section norm-text-screen">Context-based filtering allows Sally to find a couch fitting her requirements and price point. Here, something like seating capacity matters, but it is not a filter she would expect to see  she were searching for a treadmill.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-filter.png"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>View Results</h1>
+				<p class="page-section norm-text-screen">As Sally browses the filtered results, she compares images, description, prices, and seller ratings.
+				<br/><br/>Sally decides to buy a couch from Jason because he seems like a reliable seller and the couch meets her requirements.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-jason.png"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>Chatbot Communication</h1>
+				<p class="page-section norm-text">The chatbot ensures that Sally doesn't have to deal with the axiety of speaking with a stranger. Craigslist acts as a medium between the buyer and seller.
+				<br/><br/>
+				Sally easily arranges meeting time, payment method, and transportation method with Jason.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/chatbot.gif"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>Reminder Notifications</h1>
+				<p class="page-section norm-text-screen">Notifications remind both Sally and Jason of the meeting, and the real-life interaction begins. Sally inspects the couch and decides to take it.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-reminder.png"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>Confirm Transaction</h1>
+				<p class="page-section norm-text-screen">Sally receives a notification asking if the transaction is complete. She selects YES, which sends  notification to Jason asking for a cnfirmation of payment.
+				<br/><br/>
+				When Jason selects YES, his listing is removed from the Craigslist search results in order to prevent future buyers from contacting about a couch that has already been sold.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-confirmation.png"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-6">
+				<h1>Reputation In the Community</h1>
+				<p class="page-section norm-text-screen">Sally (and Jason!) rate the experience with each other in order to help build reputation in the Craigslist community.</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="norm-text"><img class="page-image-screen" src="img/craigslist/phone-reputation.png"></p>
+			</div>
+		</div>
+		<br/>
+		<div class="row page-section-bottom">
+			<div class="col-sm-12">
+				<h2 class="page-section-top center">Research + Design Process<br/><br/></h2>
+				<h1 class="center">Anonymity Is a Double-Edged Sword</h1>
+				<p class="page-section center norm-text">Craigslist has a strong brand as an anonymous marketplace for local sales.
+				<br/>
+				<p class="page-section-none center"><img class="page-image-screen" src="img/craigslist/market-research.png"></p>
+				<br/>
+				<p class="page-section-top center norm-text">Compared to competitors in online shopping and local interactions, Craigslist lags in the trust category. <br/><br/>User research revealed that anonymity gives users comfort in having the ability to hide themselves, but it creates fear since they don't know anything about other users.</p>
+				</p>
+			</div>
+		</div>
+		<div class="collapse">
+			<div class="row page-section-bottom">
+				<div class="col-sm-12">
+					<h2 class="page-section-top center">__________<br/><br/></h2>
+					<h1 class="center">Brainstorming Solutions To Pain Points</h1>
+					<p class="page-section center norm-text">Using an affinity diagram, I grouped my findings into the three categories of anonymity and trust, communication, and filtering.</p>
+					<p class="page-section-none center"><img class="page-image-screen" src="img/craigslist/diagram.jpg" style="display:block;max-width:600px;"></p>
+					<p class="page-section center norm-text">I asked students for feedback in order to determine the best solution for a redesigned Craigslist.
+					</p>
+				</div>
+			</div>
+			<div class="row page-section-bottom">
+				<div class="col-sm-12">
+					<h2 class="page-section-top center">__________<br/><br/></h2>
+					<h1 class="center">Visual Design</h1>
+					<p class="page-section center norm-text">Craigslist emerged in 1995, with the look and feel designed to mimic newspaper classifieds, but the reality is not many read newspapers today. I retained Craiglist's renown minimalism, but decided to focus my redesign on creating a mobile app since students are always on-the-go with their phones in hand.</p>
+					<p class="page-section-none center"><img class="page-image-screen" src="img/craigslist/sketches.jpg" style="display:block;max-width:550px;"></p>
+					<p class="page-section-none center"><img class="page-image-screen" src="img/craigslist/final.png" style="display:block;max-width:600px;"></p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row page-section-bottom">
+			<div class="col-sm-12">
+				<div class="center">
+					<button id="toggle" type="button" data-toggle="collapse" data-target=".collapse" class="btn btn-sample">VIEW MORE</button>
+				</div>
+			</div>
+		</div>
+		
+		<br/>
+		<div class="row bg-filled">
+			<div class="col-sm-12">
+				<h2 class="page-section-top center">Future Work<br/><br/></h2>
+				<h1 class="center">Testing and Seller Interface</h1>
+				<p class="page-section center norm-text">if I had more time to work on this redesign concept, I would like to test my design with users in order to see how to better improve.
+				<br/><br/>
+				Because the challenge asked speciailly about the student buyer experience, I focused on that aspect. However, Craiglist is a two-way marketplace, so I would like to flesh out the seller screens, as well as show how the desktop application would appear.</p>
+			</div>
+		</div>
+		<br/>
+
+		
+
+	<div class="related">
+		<h2 style="color:grey;">See more projects</h2>
+			<div class="row page-section-none">
+				<div class="col-sm-4">
+					<div class="entry">
+						<a class="entry-thumb" href="reps.html" title="Reps">
+							<img src="img/reps/entry.png">
+						</a>
+						<div class="entry-content">
+							<h4 class="entry-title">
+								<a href="reps.html">Reps</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="entry">
+						<a class="entry-thumb" href="geekline.html" title="Geekline">
+							<img src="img/geekline/entry.png">
+						</a>
+						<div class="entry-content">
+							<h4 class="entry-title">
+								<a href="geekline.html">Geekline</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="entry">
+						<a class="entry-thumb" href="mail.html" title="Mail As We Age">
+							<img src="img/mail/entry.png">
+						</a>
+						<div class="entry-content">
+							<h4 class="entry-title">
+								<a href="mail.html">Mail As We Age</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="js/lightbox.js"></script>
+</body>
+</html>

@@ -1,168 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="jessica, fung, user experience, design, ux, ui, service design, interaction design, portfolio">
-    <meta name="author" content="Jessica Fung, James Yang">
-    <title>Jessica Fung | UX Designer</title>
-    <link href="css/style.css" rel="stylesheet">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="jessica, fung, user experience, design, ux, ui, service design, interaction design, portfolio">
+	<meta name="author" content="Jessica Fung, James Yang">
+	<title>Jessica Fung | UX Designer</title>
+	<link href="css/style.css" rel="stylesheet">
 	<link href="css/lightbox.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <!-- Favicons -->
-    <link rel="icon" type="image/png" href="/img/favicon.png" />
-  </head>
-  <body>
-    <div class="masthead">
-      <h1 class="masthead-title">
-      <a href="http://www.jessicafung.co/">jessica fung</a>
-      </h1>
-      <p class="masthead-lead"> I solve problems by designing seamless user experiences.</p>
-      <hr class="masthead-hr">
-      <ul class="masthead-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="img/JessicaFungResume.pdf" target="_blank">Resume</a>
-        </li>
-        <li class="nav-item mobile-only-inline">
-          <a class="nav-link" href="http://www.jessicafung.co/">Portfolio</a>
-        </li>
-      </ul>
-      <ul class="masthead-nav desktop-only">
-        <li class="nav-item">
-          <a class="nav-link" href="http://www.jessicafung.co/">Portfolio</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="digestible.html">Digestible</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="reps.html">Reps</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="geekline.html">Geekline</a>
-        </li>
-        <li class="nav-item-project">
-          <div class="nav-link-project-now">Mail As We Age</div>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="traffic.html">Traffic Dashboard</a>
-        </li>
-        <li class="nav-item-project">
-          <a class="nav-link-project" href="poster.html">Lecture Poster</a>
-        </li>
-      </ul>
-	  <hr class="masthead-hr" />
-    </div>
-    <div class="listing">
-      <div class="entry">
-        <img class="entry-thumb-static" src="img/mail/entry.png">
-        <div class="entry-content">
-          <h3>CHALLENGE</h3>
-          <p class="entry-content"><b>The goal of a conceptual model is to communicate a concept within an object or graphic that a person can view or interact with to understand the process of idea the model represents.</b> In this challenge, I explored different concept maps that dove into deep detail on a single subject to conceptualize a single point and provide a high-level representation of an idea.</p>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css" />
+	<style>
+	.header-image	{background-image: url("img/mail/entry.png");}
+	h2 				{color: #D9D91E}
+	.bg-accent		{background-color: #D9D91E}
+	.fa				{color: #D9D91E}
+	.nav-link-project-now	{color: #D9D91E}
+	
+	.btn-sample { 
+	  color: #D9D91E; 
+	  background-color: #FFFFFF; 
+	  border-color: #D9D91E; 
+	} 
+	 
+	.btn-sample:hover, 
+	.btn-sample:focus, 
+	.btn-sample:active, 
+	.btn-sample.active, 
+	.open .dropdown-toggle.btn-sample { 
+	  color: #D9D91E; 
+	  background-color: #FFFFFF; 
+	  border-color: #D9D91E; 
+	} 
+	 
+	.btn-sample:active, 
+	.btn-sample.active, 
+	.open .dropdown-toggle.btn-sample { 
+	  background-image: none; 
+	} 
+	 
+	.btn-sample.disabled, 
+	.btn-sample[disabled], 
+	fieldset[disabled] .btn-sample, 
+	.btn-sample.disabled:hover, 
+	.btn-sample[disabled]:hover, 
+	fieldset[disabled] .btn-sample:hover, 
+	.btn-sample.disabled:focus, 
+	.btn-sample[disabled]:focus, 
+	fieldset[disabled] .btn-sample:focus, 
+	.btn-sample.disabled:active, 
+	.btn-sample[disabled]:active, 
+	fieldset[disabled] .btn-sample:active, 
+	.btn-sample.disabled.active, 
+	.btn-sample[disabled].active, 
+	fieldset[disabled] .btn-sample.active { 
+	  background-color: #FFFFFF; 
+	  border-color: #D9D91E; 
+	} 
+	 
+	.btn-sample .badge { 
+	  color: #FFFFFF; 
+	  background-color: #D9D91E; 
+	}
+	</style>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<!-- animsition -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+	<script src="https://use.fontawesome.com/e1064942f9.js"></script>
+	<script>
+	$(document).ready(function() {
+		  $(".animsition").animsition({
+			inClass: 'fade-in-down-sm',
+			outClass: 'fade-out-down-sm',
+			inDuration: 800,
+			outDuration: 800,
+			linkElement: '.animsition-link',
+			// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+			loading: false,
+			loadingParentElement: 'body', //animsition wrapper element
+			loadingClass: 'animsition-loading',
+			loadingInner: '', // e.g '<img src="loading.svg" />'
+			timeout: false,
+			timeoutCountdown: 5000,
+			onLoadEvent: true,
+			browser: [ 'animation-duration', '-webkit-animation-duration'],
+			// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+			// The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+			overlay : false,
+			overlayClass : 'animsition-overlay-slide',
+			overlayParentElement : 'body',
+			transition: function(url){ window.location.href = url; }
+		  });
+		
+		$("#toggle").click(function(){        
+    		if($(this).text().trim() == 'VIEW MORE' ){
+        		$(this).text('VIEW LESS');
+    		} else {
+         		$(this).text('VIEW MORE');
+    		}
+		});
 
-          <h3>CONCEPTS</h3>
-          <p class="entry-content">During initial ideation, I looked into three different ideas by starting with a detailed process map and honing in on specific points of the map to provide a more high level picture. I explored the use of process maps to show instruction, venn diagrams to show relationships, and maps to use space to show the amount of impact items have.</p>
-
-          <p class="entry-content"><b>Concept One: Ramen</b><br />
-          Ramen is a staple of college students, but it can also become a gourmet dish. There are different ways to enjoy the meal, depending on your soup base and toppings, or you may choose to stick with your budget-friendly cup noodle.</p>
-		  
-		  <p class="entry-content" style="margin-top:-2rem;">
-			<ul>
-			  <li class="triple"><a href="img/mail/ramenmap.jpg" data-lightbox="ramen"><img class="entry-image"src="img/mail/ramenmap.jpg" alt="Click to expand."></a></li>
-			  <li class="triple"><a href="img/mail/ramenmodel1.jpg" data-lightbox="ramen"><img class="entry-image"src="img/mail/ramenmodel1.jpg" alt="Click to expand."></a></li>
-			  <li class="triple"><a href="img/mail/ramenmodel2.jpg" data-lightbox="ramen"><img class="entry-image"src="img/mail/ramenmodel2.jpg" alt="Click to expand"></a></li>
-			</ul><br/><br/>
-		  </p>
-
-          <p class="entry-content"><b>Concept Two: Curing Hiccups</b><br />
-          In all of our lives, we've heard different methods to cure hiccups, and I thought it might be fun to list all of them in a process map. I created a quick visual displaying the instructions of my own go-to cure.</p>
-		  
-		  <p class="entry-content" style="margin-top:-1.5rem;">
-			<ul>
-			  <li class="double"><a href="img/mail/hiccupsmap.jpg" data-lightbox="hiccup"><img class="entry-image"src="img/mail/hiccupsmap.jpg" alt="Click to expand."></a></li>
-			  <li class="double"><a href="img/mail/hiccupsmodel1.jpg" data-lightbox="hiccup"><img class="entry-image"src="img/mail/hiccupsmodel1.jpg" alt="Click to expand."></a></li>
-			</ul><br/><br/>
-		  </p>
-
-          <p class="entry-content"><b>Concept Three: Mail</b><br />
-          Everyone loves receiving handwritten letters and postcards, but it is funny how as we grow older and receive more mail, the proportion of personal correspondence from friends and family tends to shrink.</p>
-		  <p class="entry-content" style="margin-top:-1.5rem;">
-			<ul>
-			  <li class="double"><a href="img/mail/mailmap.jpg" data-lightbox="mail"><img class="entry-image"src="img/mail/mailmap.jpg" alt="Click to expand."></a></li>
-			  <li class="double"><a href="img/mail/mailmodel1.jpg" data-lightbox="mail"><img class="entry-image"src="img/mail/mailmodel1.jpg" alt="Click to expand."></a></li>
-			</ul><br/><br/>
-		  </p>
-		  <p class="entry-content" style="margin-top:-4rem;">
-			<ul>
-			  <li class="double"><a href="img/mail/mailmodel2.jpg" data-lightbox="mail"><img class="entry-image"src="img/mail/mailmodel2.jpg" alt="Click to expand."></a></li>
-			  <li class="double"><a href="img/mail/mailmodel3.jpg" data-lightbox="mail"><img class="entry-image"src="img/mail/mailmodel3.jpg" alt="Click to expand."></a></li>
-			</ul><br/><br/>
-		  </p>
-		  
-          <div class="entry-image" style="margin-top:-4rem;"><a href="img/mail/mailmodel4.jpg" data-lightbox="mail"><img class="entry-image" src="img/mail/mailmodel4.jpg"></a></div>
-
-          <h3>OUTCOME</h3>
-          <p class="entry-content">In my final digitized conceptual model created in Adobe Illustrator, I focused on the idea of mail as we age over time, as there is a soft spot in my heart for paper mail. </p>
-		  
-		  <p class="entry-content">Over time, we see that the amount of spam mail and bills increase while more meaningful pieces like personal mail decreases. By forming a system model that combines maps to use physical space to show amount of impact and a matrix to show distinction between categories, I represented how the volume of mail we receive increases as we become older, but the quality of the mail also drops significantly.</p>
-
-            <div class="entry-image"><img class="entry-image" src="img/mail/final.PNG"></div>
-
-          <p class="entry-date">Advisor: <a href="http://jodiforlizzi.com/" target="_blank">Jodi Forlizzi</a> and Leanne Libert for <i>Service Design</i><br />
-		Timeline: February 2016</p>
-        </div>
-        <div class="related">
-          <h3 class="related-title">More Projects</h3>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="entry">
-                <a class="entry-thumb" href="traffic.html" title="Traffic Dashboard">
-                  <img src="img/traffic/entry.png">
-                </a>
-                <div class="entry-content">
-                  <h4 class="entry-title">
-                  <a href="traffic.html">Traffic Dashboard</a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="entry">
-                <a class="entry-thumb" href="poster.html" title="Lecture Poster">
-                  <img src="img/poster/entry.png">
-                </a>
-                <div class="entry-content">
-                  <h4 class="entry-title">
-                  <a href="poster.html">Lecture Poster</a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-			<div class="col-sm-4">
-              <div class="entry">
-                <a class="entry-thumb" href="digestible.html" title="Digestible">
-                  <img src="img/digestible/entry.png">
-                </a>
-                <div class="entry-content">
-                  <h4 class="entry-title">
-                  <a href="digestible.html">Digestible</a>
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-	<script src="js/lightbox-plus-jquery.js"></script>
-  </body>
+	});
+	</script>
+</head>
+<body>
+	<div class="masthead">
+		<h1 class="masthead-title">
+			<a href="index.html" class="animsition-link">jessica fung</a>
+		</h1>
+		<p class="masthead-lead"> I solve problems by designing seamless user experiences.</p>
+		<hr class="masthead-hr">
+		<ul class="masthead-nav">
+			<li class="nav-item">
+				<a class="nav-link animsition-link" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link animsition-link" href="img/JessicaFungResume.pdf" target="_blank">Resume</a>
+			</li>
+			<li class="nav-item mobile-only-inline">
+				<a class="nav-link animsition-link" href="index.html">Portfolio</a>
+			</li>
+		</ul>
+		<ul class="masthead-nav desktop-only">
+			<li class="nav-item">
+				<a class="nav-link animsition-link" href="index.html">Portfolio</a>
+			</li>
+			<li class="nav-item-project">
+				<a class="nav-link-project animsition-link" href="digestible.html">Digestible</a>
+			</li>
+			<li class="nav-item-project">
+				<a class="nav-link-project animsition-link" href="craigslist.html">Craigslist Chatbot</a>
+			</li>
+			<li class="nav-item-project">
+				<a class="nav-link-project animsition-link" href="reps.html">Reps</a>
+			</li>
+			<li class="nav-item-project">
+				<a class="nav-link-project animsition-link" href="geekline.html">Geekline</a>
+			</li>
+			<li class="nav-item-project">
+				<div class="nav-link-project-now" href="mail.html">Mail As We Age</div>
+			</li>
+		</ul>
+		<hr class="masthead-hr" />
+	</div>
+	<div class="page-wrapper animsition">
+		<div class="container-fluid">
+			<div class="header-image locked-aspect-ratio-35">
+				<div class="row">
+					<div class="col-sm-8"></div>
+					<div class="col-sm-4"></div>
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-sm-5">
+				<p class="small-text">
+					<strong>My Role</strong><br/>Information Designer<br/><br/>
+					<strong>Project Type</strong><br/>Visual Design, Concept Model<br/>
+					2 weeks | February 2016
+			</div>
+			<div class="col-sm-7">
+				<hr class="mobile-only page-section-top"/>
+				<p class="page-section-none norm-text">The goal of a conceptual model is to communicate a concept within an object or graphic that a person can view or interact with to understand the process of idea the model represents. <br/><br/>I explored different concept maps that dove into deep detail on a single subject to conceptualize a single point and provide a high-level representation of an idea.</p>
+				
+			</div>
+		</div>
+		<br/>
+		<div class="row bg-accent">
+			<div class="col-sm-12">
+				<h1 class="center" style="color:white;">Mail Composition Changes Over Time</h1>
+				<br/><br/>
+				<p class="norm-text center" style="color:white;">Everyone loves receiving handwritten letters and postcards, but it is funny how as we grow older and receive more mail, the proportion of personal correspondence from friends and family tends to shrink.</p>
+				<p class="page-section-top center norm-text" style="color:white;">Over time, we see that the amount of spam mail and bills increase while more meaningful pieces like personal mail decreases.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="center">Final Deliverable</h1>
+				<p class="page-section norm-text center">By forming a system model that combines maps to use physical space to show amount of impact and a matrix to show distinction between categories, I represented how the volume of mail we receive increases as we become older, but the quality of the mail also drops significantly.</p>
+				<img class="page-image" style="display:block;max-height:800px;max-width:100%;width:auto;height:auto;" src="img/mail/final.PNG"/>
+			</div>
+		</div>
+		<div class="row page-section bg-filled">
+			<div class="col-sm-12">
+				<h2 class="page-section-top center">Process<br/><br/></h2>
+				<h1 class="center">Ideating On Mail, Ramen, and Hiccups</h1>
+				<p class="page-section center norm-text">I focused on three concepts to map and model and explored the different ways to represent different informative parts of each topic.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="center">Mail</h1>
+				<p class="norm-text page-section center">
+					In my final digitized conceptual model created in Adobe Illustrator, I focused on the idea of mail as we age over time, as there is a soft spot in my heart for paper mail. There were a few ideas that came before the final version.
+				</p>
+			</div>
+		</div>
+		<div class="row page-section-none">
+			<div class="col-sm-6">
+				<img class="page-image" src="img/mail/mailmap.jpg"/>
+			</div>
+			<div class="col-sm-6">
+				<img class="page-image" src="img/mail/mailmodel1.jpg"/>
+			</div>
+		</div>
+		<div class="row page-section-none">
+			<div class="col-sm-6">
+				<img class="page-image" src="img/mail/mailmodel2.jpg"/>
+			</div>
+			<div class="col-sm-6">
+				<img class="page-image" src="img/mail/mailmodel3.jpg"/>
+			</div>
+		</div>
+		<div class="row page-section-none">
+			<div class="col-sm-12">
+				<img class="page-image" src="img/mail/mailmodel4.jpg"/>
+			</div>
+		</div>
+		<div class="collapse page-section-none">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="page-section-top center">__________<br/><br/></h2>
+					<h1 class="center">Ramen</h1>
+					<p class="norm-text page-section center">Ramen is a staple of college students, but it can also become a gourmet dish. There are different ways to enjoy the meal, depending on your soup base and toppings, or you may choose to stick with your budget-friendly cup noodle.</p>
+				</div>
+			</div>
+			<div class="row page-section-none">
+				<div class="col-sm-4">
+					<img class="page-image" src="img/mail/ramenmap.jpg"/>
+				</div>
+				<div class="col-sm-4">
+					<img class="page-image" src="img/mail/ramenmodel1.jpg"/>
+				</div>
+				<div class="col-sm-4">
+					<img class="page-image" src="img/mail/ramenmodel2.jpg"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="page-section-top center">__________<br/><br/></h2>
+					<h1 class="center">Hiccups</h1>
+					<p class="norm-text page-section center">In all of our lives, we've heard different methods to cure hiccups, and I thought it might be fun to list all of them in a process map. I created a quick visual displaying the instructions of my own go-to cure.</p>
+				</div>
+			</div>
+			<div class="row page-section-none">
+				<div class="col-sm-6">
+					<img class="page-image" src="img/mail/hiccupsmap.jpg"/>
+				</div>
+				<div class="col-sm-6">
+					<img class="page-image" src="img/mail/hiccupsmodel1.jpg"/>
+				</div>
+			</div>
+		</div>
+		<div class="row page-section-bottom">
+			<div class="col-sm-12">
+				<div class="center">
+					<button id="toggle" type="button" data-toggle="collapse" data-target=".collapse" class="btn btn-sample">VIEW MORE</button>
+				</div>
+			</div>
+		</div>
+		<br/>
+		<div class="related">
+			<h3 class="related-title">More Projects</h3>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="entry">
+							<a class="entry-thumb" href="digestible.html" title="Digestible">
+								<img src="img/digestible/entry.png">
+							</a>
+							<div class="entry-content">
+								<h4 class="entry-title">
+									<a href="digestible.html">Digestible</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="entry">
+							<a class="entry-thumb" href="craigslist.html" title="Craigslist Chatbot">
+								<img src="img/craigslist/entry.png">
+							</a>
+							<div class="entry-content">
+								<h4 class="entry-title">
+									<a href="craigslist.html">Craigslist Chatbot</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="entry">
+							<a class="entry-thumb" href="reps.html" title="Reps">
+								<img src="img/reps/entry.png">
+							</a>
+							<div class="entry-content">
+								<h4 class="entry-title">
+									<a href="reps.html">Reps</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/lightbox.js"></script>
+</body>
 </html>
