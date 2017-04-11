@@ -363,6 +363,7 @@ h3 {
        margin-bottom: .75rem;
        font-size: .88rem;
        text-align: left;
+      
    }
 
    .masthead .nav-item {
@@ -382,7 +383,9 @@ h3 {
 
 }
 
-
+.masthead-nav {
+	text-align: center;
+}
 /* Nav links */
 
 
