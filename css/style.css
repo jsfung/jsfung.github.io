@@ -395,9 +395,17 @@ h3 {
 }
 
 .nav-item:not(last-of-type) {
-   margin-left: 21px;
-   margin-right: 21px;
+   margin-left: 10px;
+   margin-right: 10px;
 }
+
+@media (min-width: 400px) {
+	.nav-item:not(last-of-type) {
+   		margin-left: 21px;
+   		margin-right: 21px;	
+	}
+}
+
 
 .nav-link-now {
     line-height: 1.8;
