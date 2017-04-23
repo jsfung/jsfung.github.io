@@ -324,7 +324,7 @@ h3 {
     font-size: 3rem;
     line-height: 1;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -337,13 +337,13 @@ h3 {
     font-weight: 300;
     font-size: .97rem;
     color: #8a8a8a;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     text-align: center;
 }
 
 .masthead-lead a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
@@ -409,7 +409,7 @@ h3 {
 
 .nav-link-now {
     line-height: 1.8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     color: #000;
     display: inline-block;
@@ -417,27 +417,27 @@ h3 {
 
 .nav-link:link {
     line-height: 1.8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #585858;
 }
 
 .nav-link:visited {
     line-height: 1.8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #585858;
 }
 
 .nav-link:hover {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     color: #3a3a3a;
     background-color: yellow;
 }
 
 .nav-link:active {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #3a3a3a;
 }
@@ -448,7 +448,7 @@ h3 {
 
 .nav-link-project-now {
     line-height: 1.7;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: .8rem;
     color: #000;
     font-weight: 500;
@@ -456,7 +456,7 @@ h3 {
 
 .nav-link-project:link {
     line-height: 1.7;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: .8rem;
     font-weight: 300;
     color: gray;
@@ -464,21 +464,21 @@ h3 {
 
 .nav-link-project:visited {
     line-height: 1.7;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: .8rem;
     font-weight: 300;
     color: gray;
 }
 
 .nav-link-project:hover {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: .8rem;
     font-weight: 400;
     background-color: yellow;
 }
 
 .nav-link-project:active {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: .8rem;
     font-weight: 300;
     color: #3a3a3a;
