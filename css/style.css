@@ -112,12 +112,18 @@
     max-width: 1150px;
 }
 
-.entry,
 .page-wrapper,
 .list {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.entry {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
 
 @media (min-width: 768px) {
     .page-wrapper {
@@ -127,12 +133,17 @@
         font-size: .9rem;
         padding-right: 1.5rem;
     }
-    .entry,
     .page-wrapper,
     .list {
         font-size: .9rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
+    }
+    .entry {
+    	font-size: .9rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        position: relative;
     }
 }
 
@@ -580,8 +591,25 @@ h3 {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    transition: opacity .2s linear;
+    transition: opacity .3s linear;
     transition-delay: .05s;
+}
+ .entry-overlay {
+ 	cursor: pointer;
+	opacity: 0;
+	display: block;
+	margin: auto;
+	z-index: 2;
+  	position: absolute;
+  	top: 50%;
+  	transform: translate(0, -50%);
+  	left: 50px;
+  	right: 50px;
+  	transition: opacity .3s linear;
+}
+
+.entry:hover .entry-overlay {
+	opacity: 1;
 }
 
 .entry-thumb {
@@ -605,11 +633,11 @@ h3 {
     border-radius: 3px;
 }
 
-.entry-thumb:hover img {
-    opacity: .65;
+.entry:hover img {
+    opacity: .15;
 }
 
-.entry-thumb:hover .entry-icon {
+.entry:hover .entry-icon {
     opacity: 1;
 }
 
@@ -732,6 +760,7 @@ h3 {
 }
 
 .related .entry {
+	position: relative;
     margin-top: .5rem;
     margin-bottom: 1rem;
 }
